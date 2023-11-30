@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color:#2D96AD;
+    color: white;
+    display: flex;
+    justify-content: start;
+    
+}
+.logo-escola{
+    width: 10%;
+    margin: 0 0;
+}
+.lista-item{
+    display: grid;
+    padding: 6px 0 0 0;
+    margin: 20px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.lista-item1{
+    display: grid;
+    padding: 0 0 0 0;
+    margin: 0 12px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px; 
+}
+.search-box{
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translate(-95%, -8%);
+    background: #343FA5;
+    height: 35px;
+    padding: 7px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lupa-branca{
+    display: none;
+    width: 40%;
+}
+.lupa-azul{
+    width: 40%;
+}
+.search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    width: 0;
+    padding: 0;
+    transition: 0.4s;
+}
+.search-btn{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70%;
+    cursor: pointer;
+}
+.search-box:hover > .search-text{
+    width: 320px;
+    padding-left: 20px;
+}
+.search-box:hover > .search-btn{
+    background: #447ce7;
+}
+.search-box:hover > .search-btn .lupa-azul{
+    display: none;
+}
+.search-box:hover > .search-btn .lupa-branca{
+    display: block;
+}
+::-webkit-input-placeholder{
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #aeaeae;
+}
+.j1{
+    background-color: #343FA5;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+.nav a{
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.nav a:hover {
+background-color: #2D96AD;
+}
+.sidebar {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 500px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.sidebar a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #333;
+}
+.sidebar a:hover {
+    background-color: #C2F4C7;
+}
+
+Download
+Copy code
+body {
+ margin: 0;
+ padding: 0;
+ font-family: Arial, sans-serif;
+}
+
+footer {
+ background-color: #EAF8F7;
+ color: white;
+ padding: 20px;
+}
+
+footer ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+footer li {
+ display: flex;
+ margin-right: 20px;
+ justify-content: center;
+}
+
+footer li a {
+ color: #2D96AD;
+ text-decoration: none;
+}
+
+footer li a:hover {
+ text-decoration: underline;
+}
+
+footer img {
+justify-content: end;
+ width: 100px;
+ height: 100px;
+}
